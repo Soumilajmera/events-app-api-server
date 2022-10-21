@@ -7,7 +7,7 @@ on:
 
 env:
   RUN_NUMBER: ${{ github.run_number }}
-  IMAGE: api-server-image
+  IMAGE: web-server-image
 
 jobs:
   build-test_node_project:
